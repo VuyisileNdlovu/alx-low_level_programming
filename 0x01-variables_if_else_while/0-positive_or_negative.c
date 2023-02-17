@@ -8,6 +8,7 @@
  *
  * Return: always 0
  */
+
 int main(void)
 {
 	int n;
@@ -19,7 +20,7 @@ int main(void)
 		printf("%d is positive", n);
 	else if (n == 0)
 		printf("%d is zero", n);
-	else
+	else if (n < 0)
 		printf("%d is negative", n);
 	return (0);
 }
