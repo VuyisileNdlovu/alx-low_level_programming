@@ -95,7 +95,7 @@ int get_digit(char c)
  * @zeroes: The necessary number of leading zeroes.
  *
  * Description: If mult contains a non-digit, the function
- *              exits with a status value of 98.
+ * exits with a status value of 98.
  */
 void get_prod(char *prod, char *mult, int digit, int zeroes)
 {
