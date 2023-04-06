@@ -17,9 +17,10 @@ int pop_listint(listint_t **head)
 	{
 		return (0);
 	}
+}
 
 	int data;
-	listint_t *temp;
+	{listint_t *temp;
 
 	data = (*head)->n;
 	temp = *head;
